@@ -6,7 +6,6 @@ Use with Node JS
 **Installation:**
 
 Install all modules with:
-
 npm install
 
 **Usage:**
@@ -14,5 +13,4 @@ npm install
 Export slip to .bex file (Right click in main window -> export)
 
 *Command line:*
-
 node app.js --infile=path_to.bex
