@@ -1,0 +1,10 @@
+{
+  "name": "billings-slip-exporter",
+  "version": "0.0.1",
+  "dependencies": {
+    "xml-stream" : "0.4.3",
+    "optimist": "0.6.0",   
+    "moment": "2.2.1" 
+    
+  }
+}
