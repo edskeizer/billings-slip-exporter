@@ -4,10 +4,15 @@ This piece of software lets you convert your .bex (Billings Pro export) files to
 Use with Node JS
 
 **Installation:**
+
 Install all modules with:
+
 npm install
 
 **Usage:**
+
 Export slip to .bex file (Right click in main window -> export)
-Command line:
+
+*Command line:*
+
 node app.js --infile=path_to.bex
