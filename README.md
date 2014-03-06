@@ -5,7 +5,7 @@ Use with Node JS
 
 ##Installation:
 
-Install all modules with:
+Get code and install:
 
 ```bash
 $ git clone git@github.com/edskeizer/billings-slip-exporter.git
@@ -20,7 +20,7 @@ Export slip to .bex file (Right click in main window -> export). Save file in sa
 *Command line:*
 
 ```bash
-node app.js --infile=path_to.bex
+$ node app.js --infile=path_to.bex
 ```
 
 ##Known issues
