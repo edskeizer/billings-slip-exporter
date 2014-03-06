@@ -25,3 +25,7 @@ node app.js --infile=path_to.bex
 
 1. Put .bex file in same folder
 2. Output of file is in same folder
+
+## License
+
+Billings-slip-exporter is released under the [MIT License](http://www.opensource.org/licenses/MIT).
