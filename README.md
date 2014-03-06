@@ -6,14 +6,20 @@ Use with Node JS
 #Installation:
 
 Install all modules with:
+
+```bash
 npm install
+```
 
 #Usage:
 
 Export slip to .bex file (Right click in main window -> export)
 
 *Command line:*
+
+```bash
 node app.js --infile=path_to.bex
+```
 
 #Known issues
 
