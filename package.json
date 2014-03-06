@@ -4,7 +4,8 @@
   "dependencies": {
     "xml-stream" : "0.4.3",
     "optimist": "0.6.0",   
-    "moment": "2.2.1" 
+    "moment": "2.2.1",
+    "sanitize-filename": "1.0.1"
     
   }
 }

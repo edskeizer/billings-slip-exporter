@@ -14,3 +14,8 @@ Export slip to .bex file (Right click in main window -> export)
 
 *Command line:*
 node app.js --infile=path_to.bex
+
+#Known issues
+
+1. Put .bex file in same folder
+2. Output of file is in same folder

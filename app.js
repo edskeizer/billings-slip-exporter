@@ -4,6 +4,7 @@ var fs        = require('fs')
   , path      = require('path')
   , XmlStream = require('xml-stream')
   , moment	  = require("moment")
+  , sanitize = require("sanitize-filename")
   , argv 	  = require('optimist').argv;
 
 // Create a file stream and pass it to XmlStream
@@ -66,6 +67,7 @@ xml.on('endElement: date', function(date) {
 xml.on('end', function(data) {
 
 var output = processTotals(dateCollection);
+name = sanitize(name);
 fs.writeFile(name+".csv",output, 
 	function(err) {
 	    if(err) {
