@@ -15,7 +15,7 @@ $ npm install
 
 ##Usage:
 
-Export slip to .bex file (Right click in main window -> export)
+Export slip to .bex file (Right click in main window -> export). Save file in same folder as this project (known issue). The name of the output file will be the name of the slip (as given in Billings Pro) + '.csv'
 
 *Command line:*
 
